@@ -12,10 +12,10 @@
       "DOM",
       "DOM.Iterable"
     ],
-    "module": "Node16",
+    "module": "ESNext",
     "skipLibCheck": true,
     /* Bundler mode */
-    "moduleResolution": "Node16",
+    "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
