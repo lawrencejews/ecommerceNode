@@ -7,4 +7,4 @@
 - Select the branch, build command `npm run build` and output directory `dist`.
 - Add Node version for your project in the Environment variables-advanced`NODE_VERSION = 16.20.2`.
 - Save and deploy.
-- 
+LINK: https://fitnessapp-8jp.pages.dev/
