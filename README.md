@@ -8,3 +8,10 @@
 - Add Node version for your project in the Environment variables-advanced`NODE_VERSION = 16.20.2`.
 - Save and deploy.
 LINK: https://fitnessapp-8jp.pages.dev/
+
+#### DockerFile / dockerignore
+- For React-Vite remember to expose the PORT in vite.config.ts
+- Create an account with dockerhub to push all your images later.
+- Build the image: docker build -t your-name-on-docker-hub/fitness-application:latest
+- Run the created image: `docker build -t lubs/fitness-application-hub:latest . `
+- Push the image to dockerhub: `docker push lubs/fitness-application-hub:latest `.
