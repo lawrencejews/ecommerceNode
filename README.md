@@ -13,5 +13,6 @@ LINK: https://fitnessapp-8jp.pages.dev/
 - For React-Vite remember to expose the PORT in vite.config.ts
 - Create an account with dockerhub to push all your images later.
 - Build the image: docker build -t your-name-on-docker-hub/fitness-application:latest
-- Run the created image: `docker build -t lubs/fitness-application-hub:latest . `
+- Create an image for your project: `docker build -t lubs/fitness-application-hub:latest . `
+-  Run the built image: `docker run -p 3001:3001 -d lubs/fitness-application-hub:latest`.
 - Push the image to dockerhub: `docker push lubs/fitness-application-hub:latest `.
